@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
+#include<unistd.h>
 int total_songs = 0;
 // Define a structure for a song
 typedef struct Song {
@@ -365,6 +365,7 @@ int main() {
                 printf("\n ----------------------------------------------------------- ");
                 printf("\n|                         THANK YOU                         |");
                 printf("\n ----------------------------------------------------------- \n\n");
+                sleep(3);
                 return 0;
             default:
                 printf("\n ----------------------------------------------------------- ");
